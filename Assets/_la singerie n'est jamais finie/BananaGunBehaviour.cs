@@ -1,3 +1,4 @@
+using Ilumisoft.HealthSystem;
 using UnityEngine;
 
 public class BananaGunBehaviour : MonoBehaviour
@@ -13,9 +14,9 @@ public class BananaGunBehaviour : MonoBehaviour
         Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * 100, Color.red, 2f);
 
         if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 100)){
-            var healthManagerBehaviour = hit.transform.GetComponent<HealthManagerBehaviour>();
-            if(healthManagerBehaviour){
-                healthManagerBehaviour.TakeDamage(1);
+            var healthComponent = hit.transform.GetComponent<HealthComponent>();
+            if(healthComponent){
+                healthComponent.ApplyDamage(1);
             }
         }
 
