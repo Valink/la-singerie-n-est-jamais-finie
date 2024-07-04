@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class bananaGunBehaviour : MonoBehaviour
+public class BananaGunBehaviour : MonoBehaviour
 {
     [SerializeField] private float bulletForce;
     [SerializeField] private Transform bulletOrigin;
@@ -13,12 +13,13 @@ public class bananaGunBehaviour : MonoBehaviour
         Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * 100, Color.red, 2f);
 
         if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 100)){
-            Debug.Log(hit.transform.name);
-            // if(hit.transform.tag == "Enemy"){
-            //     hit.transform.GetComponent<EnemyBehaviour>().TakeDamage(10);
-            // }
+            var healthManagerBehaviour = hit.transform.GetComponent<HealthManagerBehaviour>();
+            if(healthManagerBehaviour){
+                healthManagerBehaviour.TakeDamage(1);
+            }
         }
-        
+
+        Destroy(bullet, 2f);
     }
 
     void Update()

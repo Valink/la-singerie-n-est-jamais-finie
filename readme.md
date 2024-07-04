@@ -6,3 +6,5 @@
 - Mking
 - ModularFirstPersonController
 - TextMesh Pro
+- The Combat Collection STARTER
+  
