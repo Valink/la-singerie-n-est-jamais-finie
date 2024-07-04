@@ -7,10 +7,10 @@ public class SpawnerTriggerBehaviour : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        // spawner.Spawn();
+        spawner.Spawn();
 
         // animator.SetBool("isAttacking", true);
-        animator.SetBool("isDying", true);
+        // animator.SetBool("isDying", true);
     }
 }
 
