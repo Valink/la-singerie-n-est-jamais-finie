@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2033857320231121392, guid: 29da10a5a300633478679f42728a9b24, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4754384252260719204, guid: 29da10a5a300633478679f42728a9b24, type: 3}
       propertyPath: m_Name
-      value: Free Racing Car Variant (1) Variant
+      value: carBullet
       objectReference: {fileID: 0}
     - target: {fileID: 5382126895175712990, guid: 29da10a5a300633478679f42728a9b24, type: 3}
       propertyPath: m_LocalScale.x
@@ -63,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 5382126895175712990, guid: 29da10a5a300633478679f42728a9b24, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820156749559002955, guid: 29da10a5a300633478679f42728a9b24, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
