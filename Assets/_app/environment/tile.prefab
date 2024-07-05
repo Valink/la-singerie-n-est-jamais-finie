@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5220669330850484044}
   m_Layer: 0
-  m_Name: nexTileOrigin
+  m_Name: nexTileOrigins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -375,6 +375,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6753693309881043882}
     m_Modifications:
+    - target: {fileID: 3700163226968524853, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6213166696596272597, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.73
@@ -515,6 +519,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6753693309881043882}
     m_Modifications:
+    - target: {fileID: 3700163226968524853, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6213166696596272597, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.37
@@ -793,6 +801,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6753693309881043882}
     m_Modifications:
+    - target: {fileID: 3700163226968524853, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6213166696596272597, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.14
@@ -859,6 +871,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6753693309881043882}
     m_Modifications:
+    - target: {fileID: 3700163226968524853, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6213166696596272597, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.91
@@ -903,10 +919,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate
       objectReference: {fileID: 0}
-    - target: {fileID: 6733526433229451119, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -925,6 +937,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6753693309881043882}
     m_Modifications:
+    - target: {fileID: 3700163226968524853, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6213166696596272597, guid: 4176cfee5ce8af14cb10e49fa2985a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.95

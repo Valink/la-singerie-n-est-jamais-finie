@@ -13,28 +13,16 @@ PrefabInstance:
       value: Crate 2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2399999
+      value: -3.91
       objectReference: {fileID: 0}
     - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.24
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -63,18 +51,6 @@ PrefabInstance:
     - target: {fileID: 4387695567653911760, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450347876862476592, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: force
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450347876862476592, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: debrisAmount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450347876862476592, guid: 467d26706578de74c9034a01b65f8f4f, type: 3}
-      propertyPath: forceRequired
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
